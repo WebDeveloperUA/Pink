@@ -1,0 +1,40 @@
+@mobile: ~"(max-width: 659px)";
+@tablet: ~"(min-width: 660px) and (max-width: 1199px)";
+@desktop: ~"(min-width: 1200px)";
+
+@import "normalize";
+@import "global/fonts";
+@import "global/global.less";
+@import "blocks/page-header";
+@import "blocks/main-nav";
+@import "blocks/site-list";
+@import "blocks/intro";
+@import "blocks/adventages";
+@import "blocks/effect";
+@import "blocks/reviews";
+@import "blocks/slider";
+@import "blocks/price";
+@import "blocks/contacts";
+@import "blocks/page-footer";
+@import "blocks/registration";
+@import "blocks/introduction";
+@import "blocks/form";
+@import "blocks/popap";
+
+body{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.container{
+    margin: 0 auto;
+        @media @mobile {
+            width: 280px;
+        }
+        @media @tablet {
+            width: 620px;
+        }
+        @media @desktop {
+            width: 960px;
+        }
+}

@@ -1,0 +1,100 @@
+.popap{
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0px 7px 15px 0px rgba(0, 1, 1, 0.15);
+        @media @mobile {
+            width: 100%;  
+            padding: 40px 20px 50px 20px;
+        }
+        @media @tablet {
+            width: 460px;
+            padding: 50px 80px;
+        }
+        @media @desktop {
+            width: 780px;
+            padding: 50px 215px;
+        }
+
+        &--error{
+            @media @mobile {
+                top: 300px;
+                bottom: auto;
+            }
+            @media @tablet {
+                top: 300px;
+                bottom: auto;
+            }
+            @media @desktop {
+                top: 300px;
+                bottom: auto;
+            }
+        }
+        &--success{
+            @media @mobile {
+                top: 800px;
+                bottom: auto;
+            }
+            @media @tablet {
+                top: 800px;
+                bottom: auto;
+            }
+            @media @desktop {
+                top: 1100px;
+                bottom: auto;
+            }
+        }
+}
+
+.popap__header{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 35px;
+        @media @tablet {
+            font-size: 30px;
+            line-height: 40px;
+            width: 220px;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+        @media @desktop {
+            font-size: 30px;
+            line-height: 40px;
+        }
+}
+
+.popap__description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+        @media @tablet {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        @media @desktop {
+            font-size: 18px;
+            margin-bottom: 120px;
+        }
+}
+
+.popap__button{
+   background-color: rgba(42, 171, 109, 1); 
+   border: 2px solid rgba(42, 171, 109, 1);
+   border-radius: 2px;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 30px;
+   text-align: center;
+   color: rgba(255, 255, 255, 1);
+   width: 100%;
+   padding: 20px;
+}

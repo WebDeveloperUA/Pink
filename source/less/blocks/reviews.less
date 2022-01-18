@@ -1,0 +1,124 @@
+.reviews__wrapper{
+    position: relative;
+        @media @mobile {
+            padding: 50px 0 35px 0;
+         }
+         @media @tablet {
+           padding: 110px 0 15px 0;
+         }
+         @media @desktop {
+           padding: 40px 0 40px 0;
+         }
+}
+
+.reviews__button{
+    display: none !important;
+        @media @desktop {
+            display: block !important;
+            position: absolute;
+            top: 140px;
+        }
+        &--next{
+            position: absolute !important;
+            right: 0;
+            top: 140px;
+        }
+}
+
+.reviews__list{
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+        @media @desktop {
+            width: 690px;
+            padding: 120px 0 0 0;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 70px;
+                    left: 440px;
+                    background-image: url("../img/quotes.svg");
+                    width: 80px;
+                    height: 65px;
+                }
+        }
+}
+
+.reviews__item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.reviews__author{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0 30px 0;
+        @media @tablet {
+            font-size: 20px;
+            margin: 0 0 15px 0;
+            order: 2;
+        }
+        @media @desktop {
+            font-size: 24px;
+            margin: 0 0 15px 0;
+            order: 2;
+        }
+}
+
+.reviews__author-info{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    order: 3;
+        @media @mobile {
+            display: none;
+        }
+        @media @desktop {
+            font-size: 18px;
+        }
+}
+
+.reviews__description{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+        @media @tablet {
+            font-size: 18px;
+            margin: 0 0 50px 0;
+            order: 1;
+        }
+        @media @desktop {
+            font-size: 18px;
+            margin: 0 0 50px 0;
+            order: 1;
+        }
+}
+
+.reviews__toggles{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60px;
+        @media @tablet {
+            margin-top: 50px;
+        }
+         @media @desktop {
+            display: none;
+        }
+}
+
+
+
+
+

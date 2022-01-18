@@ -1,0 +1,200 @@
+.price{
+    position: relative;
+    background-color: rgba(242, 242, 242, 1);
+    overflow: hidden;
+    &::after{
+        width: 2000px;
+        height: 400px;
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: -417px;
+        left: -70px;    
+        transform: rotate(-5deg);
+        @media @mobile {
+            top: -446px;
+        }
+        @media @desktop {
+            top: -454px;
+            height: 500px;
+        }
+    }
+}
+
+.price__wrapper{
+        @media @mobile {
+            padding: 100px 0 100px 0;
+            position: relative;
+        }
+        @media @tablet {
+            padding: 100px 0 70px 0;
+        }
+        @media @desktop {
+            padding: 160px 0 100px 0;
+        }
+}
+
+.price__table{
+    width: 100%;
+        & th:not(:first-child){
+            background-color: #283645;
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        & td{
+            background-color: rgba(255, 255, 255, 1);
+            border: 2px solid rgba(229, 229, 229, 1);
+            border-collapse: collapse;
+            position: relative;
+        }
+        & p{
+            margin: 0;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+            text-align: center;
+        }
+        & p:first-child{
+            margin: 0 0 15px 0;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+
+        @media @mobile {
+           & th, td{
+                display: none;
+           }
+           & td{
+               padding: 20px;
+           }
+           
+        }
+
+        @media @tablet, @desktop {
+             & tr{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+             }
+             & th:not(:first-child), & th:not(:last-child){
+            border-right: 2px solid rgba(242, 242, 242, 1);
+             }
+        }
+
+        @media @tablet {
+            & td{
+                padding: 18px 13px;
+            }
+            & th{
+                padding: 20px 0 16px 0; 
+            }
+        }
+        @media @desktop {
+            & td{
+                padding: 22px;
+            }
+            & th{
+                padding: 25px 0 25px 0;
+            }
+        }
+}
+
+.price__toggles{
+    display: none;
+        @media @mobile {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            bottom: 50px;
+            width: 60px;
+            margin: 0 auto;
+            right: 0;
+            left: 0;
+        }
+}
+
+.price--hit{
+    &::before{
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 100px;
+        transform: rotate(-45deg);
+        background-color: #D22856;
+        top: 17px;
+        left: -23px;
+    }
+    &::after{
+        content: "хит";
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 12px;
+        left: 13px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+}
+
+.price--tick{
+    &::after, &::before{
+        position: absolute;
+        content: "";
+        height: 3px;
+        background-color: rgba(61, 198, 68, 1);
+        border-radius: 10px;
+    }
+    &::after{
+        width: 30px;
+        transform: rotate(-45deg);
+            @media @tablet {
+                top: 32px;
+                left: 72px;
+            }
+            @media @desktop {
+                top: 40px;
+                left: 120px;
+            }
+    }
+    &::before{
+        width: 15px;
+        transform: rotate(43deg);
+            @media @tablet {
+                top: 38px;
+                left: 65px;
+            }
+            @media @desktop {
+                top: 45px;
+                left: 113px;
+            }
+    }
+}
+
+.price--cross{
+    &::after, &::before{
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 38px;
+        background-color: rgba(242, 91, 38, 1);
+        border-radius: 10px;
+        @media @tablet {
+            top: 30px;
+            left: 62px;
+        }
+        @media @desktop {
+            top: 40px;
+            left: 107px;
+        }
+    }
+    &::after{
+        transform: rotate(45deg);
+    }
+    &::before{
+        transform: rotate(-45deg);
+    }
+}

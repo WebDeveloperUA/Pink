@@ -1,0 +1,118 @@
+.contacts__wrapper{
+        @media @mobile {
+        padding: 45px 0 40px 0;
+        }
+        @media @tablet {
+        padding: 55px 0 30px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        }
+        @media @desktop {
+        padding: 75px 0 25px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 70px;
+        }
+}
+
+.contacts__header{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    color: rgba(40, 54, 69, 1);
+        @media @mobile {
+            margin: 0 0 45px 0;
+        }
+        @media @tablet {
+            font-size: 40px;
+            line-height: 54px;
+            margin: 0 0 50px 0;
+            grid-column-start: 1;
+            grid-column-end: -1;
+        }
+        @media @desktop {
+            font-size: 50px;
+            font-weight: 300;
+            line-height: 68px;
+            margin: 0 0 60px 0;
+            grid-column-start: 1;
+            grid-column-end: -1;
+        }
+}
+
+.contacts__item{
+    padding: 0;
+    margin: 0;
+        @media @mobile {
+            &:not(:last-child) {
+                margin: 0 0 30px 0; 
+            }
+        }
+        @media @tablet {
+            &:not(:last-child) {
+                margin: 0 0 50px 0;
+            }
+            &:last-child {
+               grid-column-start: 1;
+               grid-column-end: -1;
+            }
+        }
+        @media @desktop {
+            &:nth-child(1){
+                order: -1;
+            }
+            &:nth-child(3){
+                order: 1;
+            }
+        }
+}
+
+.contacts__phrase{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(40, 54, 69, 1);
+    padding: 0;
+    margin: 0;
+        @media @mobile {
+            margin: 0 0 10px 0;
+        }
+        @media @tablet {
+            margin: 0 0 15px 0;
+        }
+        @media @desktop {
+            margin: 0 0 30px 0;
+        }
+}
+
+.contacts__contact{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(210, 40, 86, 1);
+    padding: 0;
+    margin: 0;
+}
+
+.contacts__map{
+    background-repeat: no-repeat;
+    background-size: cover;
+        @media @mobile {
+            height: 200px;
+            background-image: url(../img/map-mobile.png);
+        }
+        @media @tablet {
+            height: 375px;
+            background-image: url(../img/map-tablet.png);
+        }
+        @media @desktop {
+            background-image: url(../img/map-desktop.png);
+            height: 502px;
+        }
+
+}
