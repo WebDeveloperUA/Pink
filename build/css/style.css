@@ -619,30 +619,24 @@ img {
 .intro {
   background-color: #1D2631;
   overflow: hidden;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (max-width: 659px) {
   .intro {
     background-image: url(../img/back-mobile.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: contain;
     background-position-y: -60px;
   }
 }
 @media (min-width: 660px) and (max-width: 1199px) {
   .intro {
     background-image: url(../img/back-tablet.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 @media (min-width: 1200px) {
   .intro {
     background-image: url(../img/back-desktop.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 @media (max-width: 659px) {
@@ -1689,18 +1683,15 @@ img {
 @media (max-width: 659px) {
   .contacts__map {
     height: 200px;
-    background-image: url(../img/map-mobile.png);
   }
 }
 @media (min-width: 660px) and (max-width: 1199px) {
   .contacts__map {
     height: 375px;
-    background-image: url(../img/map-tablet.png);
   }
 }
 @media (min-width: 1200px) {
   .contacts__map {
-    background-image: url(../img/map-desktop.png);
     height: 502px;
   }
 }
