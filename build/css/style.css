@@ -594,16 +594,6 @@ img {
     border: none;
   }
 }
-@media (min-width: 1200px) {
-  .site-list__item--active a {
-    border-bottom: 2px solid white;
-  }
-  .site-list__item--active a:hover {
-    border-bottom: 2px solid #d22856;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-  }
-}
 .site-list__item a {
   color: white;
   text-decoration: none;
@@ -625,6 +615,22 @@ img {
 @media (min-width: 1200px) {
   .site-list__item a {
     padding: 15px;
+  }
+}
+.site-list__item--active a {
+  color: white;
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+  .site-list__item--active a {
+    border-bottom: 2px solid white;
+  }
+  .site-list__item--active a:hover {
+    color: white;
+    cursor: default;
+  }
+  .site-list__item--active a:active {
+    opacity: 1;
   }
 }
 .intro {
@@ -807,28 +813,6 @@ img {
   position: relative;
   background-color: #f2f2f2;
   overflow: hidden;
-}
-.adventages::after {
-  width: 2000px;
-  height: 400px;
-  content: "";
-  background-color: white;
-  position: absolute;
-  top: -116px;
-  left: -70px;
-  -webkit-transform: rotate(-6deg);
-          transform: rotate(-6deg);
-}
-@media (max-width: 659px) {
-  .adventages::after {
-    top: -230px;
-  }
-}
-@media (min-width: 1200px) {
-  .adventages::after {
-    top: -115px;
-    height: 500px;
-  }
 }
 .adventages__wrapper {
   position: relative;
@@ -1354,28 +1338,6 @@ img {
   background-color: #f2f2f2;
   overflow: hidden;
 }
-.price::after {
-  width: 2000px;
-  height: 400px;
-  content: "";
-  background-color: white;
-  position: absolute;
-  top: -417px;
-  left: -70px;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
-}
-@media (max-width: 659px) {
-  .price::after {
-    top: -446px;
-  }
-}
-@media (min-width: 1200px) {
-  .price::after {
-    top: -454px;
-    height: 500px;
-  }
-}
 @media (max-width: 659px) {
   .price__wrapper {
     padding: 100px 0 100px 0;
@@ -1869,9 +1831,6 @@ img {
   .registration__desktop-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
     -webkit-column-gap: 70px;
        -moz-column-gap: 70px;
             column-gap: 70px;
