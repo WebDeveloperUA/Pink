@@ -1,0 +1,88 @@
+.panorama__wrapper{
+    @media @mobile {
+        padding: 50px 0 60px 0;
+    }
+    @media @tablet {
+        padding: 90px 0;
+    }
+    @media @desktop {
+        padding: 100px 0;
+    }
+}
+
+.panorama__heading{
+    text-align: center;
+    font-weight: 300;
+}
+
+.panorama__caption{
+    background-color: #D22856;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    @media @mobile {
+        top: 0;
+    }
+}
+
+.panorama__photo{
+    position: relative;
+    @media @desktop {
+        max-height: 500px;
+        overflow: hidden;
+    }
+    & img{
+        width: 100%;
+        height: auto;
+    }
+}.panorama__comment{
+    background-color: rgba(242, 242, 242, 1);
+    padding: 30px;
+        & p{
+            font-size: 14px;
+            padding: 0;
+            margin: 0;
+        }
+}
+
+.comment__details{
+    @media @desktop, @tablet {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.comment__author{
+    font-weight: 700;
+    & span{
+        font-weight: 200;
+    }
+    @media @mobile {
+        margin-bottom: 10px;
+    }
+}
+
+.comment__like{
+    color: rgba(210, 40, 86, 1);
+        & span path{
+            fill: black;
+        }
+        & span:hover path{
+            fill: #D22856;
+        }
+        @media @mobile {
+            display: none;
+        }
+        &--phone-only{
+            display: none;
+            @media @mobile {
+                display: block;
+                margin-top: 25px;
+            }
+        }
+}
+
+
