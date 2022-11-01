@@ -1,16 +1,16 @@
-.site-list{
+.site-list {
     list-style: none;
-        @media @mobile, @tablet {
-            display: none;
+    @media @mobile, @tablet {
+        display: none;
     }
-    &--opened{
+    &--opened {
         @media @mobile, @tablet {
             display: block;
         }
     }
 }
 
-.site-list__item{
+.site-list__item {
     position: relative;
     text-align: center;
     font-size: 18px;
@@ -18,51 +18,50 @@
     line-height: 32px;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 1);
     border-top: 1px solid rgba(255, 255, 255, 0.15);
-        @media @mobile {
-            min-height: 65px;
+    @media @mobile {
+        min-height: 65px;
+    }
+    @media @tablet {
+        min-height: 65px;
+    }
+    @media @desktop {
+        font-weight: 400;
+        line-height: 18px;
+        border: none;
+    }
+    & a {
+        color: white;
+        text-decoration: none;
+        @media @mobile, @tablet {
+            text-transform: uppercase;
         }
-        @media @tablet {
-            min-height: 65px; 
+        &:hover {
+            color: rgba(210, 40, 86, 1);
+            text-transform: none;
+            transition: 0.4s;
+        }
+        &:active {
+            opacity: 0.3;
         }
         @media @desktop {
-            font-weight: 400;
-            line-height: 18px;
-            border: none;
+            padding: 15px;
         }
-        & a{
-            color: white;
-            text-decoration: none;
-            @media @mobile, @tablet {
-                text-transform: uppercase;
+    }
+    &--active a {
+        color: white;
+        text-decoration: none;
+        @media @desktop {
+            border-bottom: 2px solid white;
+            &:hover {
+                color: white;
+                cursor: default;
             }
-            &:hover{
-                color: rgba(210, 40, 86, 1);
-                text-transform: none;
-                transition: 0.4s;
-            }
-            &:active{
-                opacity: 0.3;
-            }
-            @media @desktop {
-                padding: 15px;
+            &:active {
+                opacity: 1;
             }
         }
-        &--active a{
-            color: white;
-            text-decoration: none;
-                @media @desktop {
-                    border-bottom: 2px solid white;
-                    &:hover{
-                        color: white;
-                        cursor: default;
-                    }
-                    &:active{
-                        opacity: 1;
-                    }
-                }
-                
-        }    
+    }
 }

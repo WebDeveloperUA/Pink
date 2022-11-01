@@ -1,45 +1,45 @@
-.registration__wrapper{
-        @media @mobile {
+.registration__wrapper {
+    @media @mobile {
         padding: 55px 0 80px 0;
-        }
-        @media @tablet {
+    }
+    @media @tablet {
         padding: 100px 0 50px 0;
-        }
-        @media @desktop {
+    }
+    @media @desktop {
         padding: 100px 0 0 0;
-        }
+    }
 }
 
-.registration__header{
+.registration__header {
     padding: 0 0 0 0;
     margin: 0 0 55px 0;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
-        @media @tablet {
-            font-size: 18px;
-            padding: 0 65px;
-            margin: 0 0 80px 0;
+    @media @tablet {
+        font-size: 18px;
+        padding: 0 65px;
+        margin: 0 0 80px 0;
+    }
+    @media @desktop {
+        font-size: 18px;
+        padding: 0 90px;
+        margin: 0 0 95px 0;
+    }
+    & p {
+        padding: 0;
+        margin: 0;
+        display: inline;
+    }
+    & p:last-child {
+        @media @mobile {
+            display: none;
         }
-        @media @desktop {
-            font-size: 18px; 
-            padding: 0 90px;
-            margin: 0 0 95px 0;
-        }
-        & p{
-            padding: 0;
-            margin: 0;
-            display: inline;
-        }
-        & p:last-child{
-            @media @mobile {
-                display: none;
-            }
-        }
+    }
 }
 
-.registration__desktop-wrapper{
+.registration__desktop-wrapper {
     @media @desktop {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -48,17 +48,17 @@
     }
 }
 
-.registration__name{
-        @media @mobile {
-            padding: 0 0 45px 0;
-        }
-        @media @tablet {
-            padding: 0 0 65px 0;
-        }
-        @media @desktop {
-            padding: 30px 0 0 0;
-        }
-    & label{
+.registration__name {
+    @media @mobile {
+        padding: 0 0 45px 0;
+    }
+    @media @tablet {
+        padding: 0 0 65px 0;
+    }
+    @media @desktop {
+        padding: 30px 0 0 0;
+    }
+    & label {
         font-size: 14px;
         font-weight: 400;
         line-height: 30px;
@@ -67,22 +67,22 @@
         padding: 0 0 0 0;
         margin: 0 0 30px 0;
         color: rgba(210, 40, 86, 1);
-            @media @tablet, @desktop {
-                display: grid;
-                grid-template-columns: min-content 1fr;
-                align-items: baseline;
-            }
-            @media @tablet {
-                margin: 0 0 55px 0;
-            }
-            @media @desktop {
-                margin: 0 0 70px 0;
-            }
-        &:last-child{
+        @media @tablet, @desktop {
+            display: grid;
+            grid-template-columns: min-content 1fr;
+            align-items: baseline;
+        }
+        @media @tablet {
+            margin: 0 0 55px 0;
+        }
+        @media @desktop {
+            margin: 0 0 70px 0;
+        }
+        &:last-child {
             margin: 0 0 0 0;
         }
     }
-    & input{
+    & input {
         padding: 20px 20px 20px 20px;
         margin: 15px 0 0 0;
         font-size: 18px;
@@ -91,19 +91,19 @@
         text-align: left;
         color: rgba(40, 54, 69, 1);
         border: 2px solid rgba(229, 229, 229, 1);
-            @media @mobile {
-                width: 100%;
-            }
-            @media @tablet {
-                margin: 0 0 0 20px;
-            }
-            @media @desktop {
-                margin: 0 0 0 20px;
-            }
+        @media @mobile {
+            width: 100%;
+        }
+        @media @tablet {
+            margin: 0 0 0 20px;
+        }
+        @media @desktop {
+            margin: 0 0 0 20px;
+        }
     }
 }
 
-.registration__app-info{
+.registration__app-info {
     @media @mobile {
         padding-bottom: 55px;
     }
@@ -117,7 +117,7 @@
     @media @desktop {
         padding: 60px 75px;
     }
-    & legend{
+    & legend {
         font-size: 14px;
         font-weight: 400;
         line-height: 18px;
@@ -126,17 +126,17 @@
         margin: 0 0 0 0;
         width: auto;
         text-transform: uppercase;
-            @media @mobile {
-                margin: 0 0 50px 0;
-                padding: 0 50px;
-                padding-top: 42px;
-            }
-            @media @tablet, @desktop {
-                padding: 0 25px;
-                line-height: 30px;
-            }
+        @media @mobile {
+            margin: 0 0 50px 0;
+            padding: 0 50px;
+            padding-top: 42px;
+        }
+        @media @tablet, @desktop {
+            padding: 0 25px;
+            line-height: 30px;
+        }
     }
-    & label{
+    & label {
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
@@ -145,24 +145,24 @@
         padding: 0 0 0 70px;
         position: relative;
         margin: 0 0 60px 0;
-            @media @tablet, @desktop {
-                padding: 0 0 0 60px;
-            }
-            &:last-child{
-                margin: 0 0 0 0;
-            }
-            &::after{
-                position: absolute;
-                content: "";
-                width: 35px;
-                height: 35px;
-                top: -4px;
-                left: 0;
-                border: 2px solid rgba(229, 229, 229, 1);
-                border-radius: 50%;
-            }
+        @media @tablet, @desktop {
+            padding: 0 0 0 60px;
+        }
+        &:last-child {
+            margin: 0 0 0 0;
+        }
+        &::after {
+            position: absolute;
+            content: "";
+            width: 35px;
+            height: 35px;
+            top: -4px;
+            left: 0;
+            border: 2px solid rgba(229, 229, 229, 1);
+            border-radius: 50%;
+        }
     }
-    & input:checked + span::before{
+    & input:checked + span::before {
         position: absolute;
         content: "";
         width: 15px;
@@ -174,7 +174,7 @@
     }
 }
 
-.registration__contacts{
+.registration__contacts {
     @media @mobile {
         padding: 40px 0;
     }
@@ -188,13 +188,13 @@
         justify-content: space-between;
         margin-bottom: 70px;
     }
-    & legend{
+    & legend {
         @media @mobile {
             display: none;
         }
         margin: 0;
     }
-    & input{
+    & input {
         width: 100%;
         border: 2px solid rgba(229, 229, 229, 1);
         padding: 20px;
@@ -204,19 +204,18 @@
         line-height: 30px;
         text-align: left;
         position: relative;
-            @media @mobile {
-                margin: 15px 0 0 0;
-            }
-            @media @tablet {
-                order: 0;
-                margin: 0 0 20px 0;
-            }
-            @media @desktop {
-                margin: 0 0 20px 0;
-            }
-        
+        @media @mobile {
+            margin: 15px 0 0 0;
+        }
+        @media @tablet {
+            order: 0;
+            margin: 0 0 20px 0;
+        }
+        @media @desktop {
+            margin: 0 0 20px 0;
+        }
     }
-    & label{
+    & label {
         font-size: 14px;
         font-weight: 400;
         line-height: 30px;
@@ -224,33 +223,33 @@
         color: rgba(210, 40, 86, 1);
         @media @mobile {
             margin: 0 0 30px 0;
-            }
-        &:last-child{
+        }
+        &:last-child {
             margin: 0 0 0 0;
         }
         @media @tablet {
             display: flex;
             flex-direction: column;
             margin: 0 0 40px 0;
-                & span{
-                    order: 1;
-                    margin-left: 20px;
-                }
+            & span {
+                order: 1;
+                margin-left: 20px;
+            }
         }
         @media @desktop {
             width: 370px !important;
             display: flex;
             flex-direction: column;
             margin: 0;
-                & span{
-                    order: 1;
-                    margin-left: 20px;
-                }  
+            & span {
+                order: 1;
+                margin-left: 20px;
+            }
         }
     }
 }
 
-.registration__advantages{
+.registration__advantages {
     @media @mobile {
         padding: 0 0 55px 0;
     }
@@ -265,12 +264,12 @@
         row-gap: 70px;
         margin-bottom: 70px;
     }
-    & label{
+    & label {
         position: relative;
         padding: 0 0 0 60px;
-            &:last-child{
-                margin: 0 0 0 0;
-            }
+        &:last-child {
+            margin: 0 0 0 0;
+        }
         @media @mobile {
             margin: 0 0 70px 0;
         }
@@ -280,7 +279,7 @@
         @media @desktop {
             margin: 0 0 0 0;
         }
-        &::before{
+        &::before {
             position: absolute;
             content: "";
             width: 35px;
@@ -291,13 +290,13 @@
             border-radius: 4px;
         }
     }
-    & legend{
+    & legend {
         @media @mobile {
             margin: 0 0 55px 0;
             padding-top: 40px;
         }
     }
-    & input:checked + span::after{
+    & input:checked + span::after {
         position: absolute;
         content: "";
         width: 22px;
@@ -307,7 +306,7 @@
         left: 10px;
         transform: rotate(-45deg);
     }
-    & input:checked + span::before{
+    & input:checked + span::before {
         position: absolute;
         content: "";
         width: 10px;
@@ -317,10 +316,9 @@
         left: 5px;
         transform: rotate(45deg);
     }
-    
 }
 
-.registration__emotions{
+.registration__emotions {
     @media @mobile {
         padding-bottom: 50px;
     }
@@ -332,7 +330,7 @@
         padding: 45px 60px 45px 60px;
         margin-bottom: 70px;
     }
-    & textarea{
+    & textarea {
         width: 100%;
         padding: 20px;
         border: 2px solid rgba(229, 229, 229, 1);
@@ -343,24 +341,24 @@
         line-height: 30px;
         text-align: left;
         color: rgba(40, 54, 69, 1);
-            @media @mobile {
-                margin-top: 40px;
-            }
-            @media @tablet {
-                height: 190px;
-            }
-            @media desktop {
-                height: 125px;
-            }
+        @media @mobile {
+            margin-top: 40px;
+        }
+        @media @tablet {
+            height: 190px;
+        }
+        @media desktop {
+            height: 125px;
+        }
     }
-    & legend{
+    & legend {
         @media @mobile {
             padding-top: 40px;
         }
     }
 }
 
-.registration__button{
+.registration__button {
     padding: 25px 43px;
     background-color: rgba(42, 171, 109, 1);
     border: 2px solid rgba(42, 171, 109, 1);
@@ -372,30 +370,30 @@
     text-align: left;
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
-        @media @tablet, @desktop {
-            width: 300px;
-        }
+    @media @tablet, @desktop {
+        width: 300px;
+    }
 }
 
-.registration__form{
+.registration__form {
     position: relative;
-        &::after{
-            position: absolute;
-            content: "* — обязательные поля";
-            bottom: 0;
-            right: 0;
-            font-family: Open Sans;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 30px;
-            text-align: left;
-            text-transform: uppercase;
-                @media @mobile {
-                    bottom: -55px;
-                    right: 45px;
-                }
-                @media @desktop {
-                    content: "* — обязательные для заполнения поля";
-                }
+    &::after {
+        position: absolute;
+        content: "* — обязательные поля";
+        bottom: 0;
+        right: 0;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        text-transform: uppercase;
+        @media @mobile {
+            bottom: -55px;
+            right: 45px;
         }
+        @media @desktop {
+            content: "* — обязательные для заполнения поля";
+        }
+    }
 }

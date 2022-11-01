@@ -1,4 +1,4 @@
-.panorama__wrapper{
+.panorama__wrapper {
     @media @mobile {
         padding: 50px 0 60px 0;
     }
@@ -10,13 +10,13 @@
     }
 }
 
-.panorama__heading{
+.panorama__heading {
     text-align: center;
     font-weight: 300;
 }
 
-.panorama__caption{
-    background-color: #D22856;
+.panorama__caption {
+    background-color: #d22856;
     padding: 15px 20px;
     color: white;
     font-weight: 600;
@@ -28,36 +28,37 @@
     }
 }
 
-.panorama__photo{
+.panorama__photo {
     position: relative;
     @media @desktop {
         max-height: 500px;
         overflow: hidden;
     }
-    & img{
+    & img {
         width: 100%;
         height: auto;
     }
-}.panorama__comment{
+}
+.panorama__comment {
     background-color: rgba(242, 242, 242, 1);
     padding: 30px;
-        & p{
-            font-size: 14px;
-            padding: 0;
-            margin: 0;
-        }
+    & p {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
 }
 
-.comment__details{
+.comment__details {
     @media @desktop, @tablet {
         display: flex;
         justify-content: space-between;
     }
 }
 
-.comment__author{
+.comment__author {
     font-weight: 700;
-    & span{
+    & span {
         font-weight: 200;
     }
     @media @mobile {
@@ -65,24 +66,22 @@
     }
 }
 
-.comment__like{
+.comment__like {
     color: rgba(210, 40, 86, 1);
-        & span path{
-            fill: black;
-        }
-        & span:hover path{
-            fill: #D22856;
-        }
+    & span path {
+        fill: black;
+    }
+    & span:hover path {
+        fill: #d22856;
+    }
+    @media @mobile {
+        display: none;
+    }
+    &--phone-only {
+        display: none;
         @media @mobile {
-            display: none;
+            display: block;
+            margin-top: 25px;
         }
-        &--phone-only{
-            display: none;
-            @media @mobile {
-                display: block;
-                margin-top: 25px;
-            }
-        }
+    }
 }
-
-
