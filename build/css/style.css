@@ -295,85 +295,85 @@ template {
   display: none !important;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-Italic.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-Italic.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-Italic.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-ExtraBold.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-ExtraBold.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-ExtraBold.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-Bold.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-Bold.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-Bold.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-Light.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-Light.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-Light.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-BoldItalic.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-BoldItalic.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-BoldItalic.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-ExtraBoldItalic.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-ExtraBoldItalic.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-ExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-MediumItalic.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-MediumItalic.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-MediumItalic.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-SemiBoldItalic.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-SemiBoldItalic.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-Regular.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-Regular.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-Regular.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-Medium.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-Medium.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-Medium.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-SemiBold.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-SemiBold.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-SemiBold.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans/OpenSans-LightItalic.woff2') format('woff2'), url('../fonts/Open-Sans/OpenSans-LightItalic.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/Open-Sans/OpenSans-LightItalic.woff2") format("woff2"), url("../fonts/Open-Sans/OpenSans-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -523,10 +523,8 @@ img {
   height: 4px;
   background-color: white;
   border-radius: 1px;
-  -webkit-box-shadow: 0 10px 0 0 white,
-        0 20px 0 0 white;
-          box-shadow: 0 10px 0 0 white,
-        0 20px 0 0 white;
+  -webkit-box-shadow: 0 10px 0 0 white, 0 20px 0 0 white;
+          box-shadow: 0 10px 0 0 white, 0 20px 0 0 white;
 }
 .main-nav--opened .main-nav__toggle::before,
 .main-nav__toggle::after {
@@ -634,7 +632,7 @@ img {
   }
 }
 .intro {
-  background-color: #1D2631;
+  background-color: #1d2631;
   overflow: hidden;
   background-position: top left;
   background-repeat: no-repeat;
@@ -685,7 +683,7 @@ img {
   font-weight: 300;
   line-height: 29px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
 }
 @media (max-width: 659px) {
@@ -741,13 +739,13 @@ img {
 .intro__button {
   height: 55px;
   width: 100%;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #ffffff;
   border-radius: 30px;
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: transparent;
   z-index: 10;
   cursor: pointer;
@@ -810,7 +808,7 @@ img {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 10;
 }
 .adventages {
@@ -1026,7 +1024,7 @@ img {
 }
 @media (min-width: 1200px) {
   .effect {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
   }
 }
 .effect__wrapper {
@@ -1098,7 +1096,7 @@ img {
   }
 }
 .effect__link {
-  color: #D22856;
+  color: #d22856;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -1324,7 +1322,7 @@ img {
   opacity: 0.3;
 }
 .slider__toggle--current {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   opacity: 1;
   outline: 3px solid #283645;
 }
@@ -1448,7 +1446,7 @@ img {
   width: 100px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
-  background-color: #D22856;
+  background-color: #d22856;
   top: 17px;
   left: -23px;
 }
@@ -2394,7 +2392,7 @@ img {
   font-weight: 300;
 }
 .panorama__caption {
-  background-color: #D22856;
+  background-color: #d22856;
   padding: 15px 20px;
   color: white;
   font-weight: 600;
@@ -2457,7 +2455,7 @@ img {
   fill: black;
 }
 .comment__like span:hover path {
-  fill: #D22856;
+  fill: #d22856;
 }
 @media (max-width: 659px) {
   .comment__like {
@@ -2661,7 +2659,7 @@ img {
 }
 .filter__row::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 45px;
   height: 45px;
   left: 0;
@@ -2727,6 +2725,7 @@ img {
   line-height: 18px;
   font-weight: 500;
   cursor: pointer;
+  background-color: transparent;
 }
 @media (min-width: 660px) and (max-width: 1199px), (max-width: 659px) {
   .filter__button {
@@ -2747,7 +2746,7 @@ img {
   background-color: transparent;
 }
 body {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
 }
 .container {
