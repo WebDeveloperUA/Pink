@@ -2,12 +2,13 @@
 
 ### :grey_question: About:
 - This is the project I worked on after finishing the "HTML and CSS. Responsive layout and automation" course.
+- Users can conveniently share their photos with others through the website, fostering social interaction and community engagement.
 
 ### :ballot_box_with_check: Tasks that were set:
-- create an adaptive version of the website with three breakpoints (for desktop, tablet and mobile phone)
-- add an interactive map
-- add validation to the form in case of incorrect data entry
-- add a pop-up that appears in case of successful submission of the form
+- Develop an adaptive website with three breakpoints to ensure that it's optimized for desktop, tablet, and mobile phone users.
+- Implement an interactive map feature to help customers locate the company and provide directions.
+- Validate form data to prevent errors during input, improving user experience and accuracy.
+- The website may include features that enable users to upload and tag their adventure photos with relevant keywords and captions.
 
 ### :hammer_and_wrench: The technologies I used for this:
 - HTML and CSS/LESS
